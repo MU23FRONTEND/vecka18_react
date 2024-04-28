@@ -5,12 +5,12 @@
 ### Övning 1 - Komponentstruktur
 1. Skapa ett nytt react-projekt
 2. Titta på bilderna i mappen ```assets``` och fundera på vilka komponenter du ser. Vilka är de övergripande komponenterna för webbsidan som helhet, och vilka sub-komponenter finns eventuellt?
-3. Skapa dina övergripande funktionella komponenter var för sig i egna filer, och läs in dem i ```App.jsx```.
+3. Skapa dina övergripande funktionella komponenter var för sig i egna filer, och läs in dem i ```App.tsx```.
 4. Skapa dina eventuella sub-komponenter och importera dem in i lämplig huvudkomponent.
 5. Försök styla så att dina versioner ser likadana ut som bilderna i ```assets```.
 
 #### Tips!
-Skapa INTE ett projekt per bild, utan skapa hellre en komponent per bild, där du då kan välja i ```App.jsx``` vilken av dina versioner du vill visa på skärmen. Exempelvis: ```<Desktop-1 />```.
+Skapa INTE ett projekt per bild, utan skapa hellre en komponent per bild, där du då kan välja i ```App.tsx``` vilken av dina versioner du vill visa på skärmen. Exempelvis: ```<Desktop-1 />```.
 
 #### Nästa steg
 Stoppa in riktig data i dina komponenter. Fyll exempelvis listobjekt med riktiga länkar, stoppa in lorem ipsum-text i dina artiklar, återanvänd dina listobjekt inuti din footer etc. 
@@ -24,10 +24,10 @@ Följ instruktionerna [på länken](https://gist.github.com/Santosnr6/c31dd18e99
 ### Övning 3 - Conditional Rendering
 Använd dig av 'tenary operators' för att, beroende på variabler/data, rendera någonting på skärmen. Till exempel så kan du skapa en variabel i din Menu som kollar om användaren är inloggad eller inte ```let userLoggedIn = true```. Om användaren är inloggad så vill du i din meny visa ett ListItem med texten Logga Ut, och om användaren inte är inloggad så skall din ListItem istället visa texten Logga In.
 
-Kom gärna på fler sätt att öva använda conditional rendering på. Till exempel skulle du kunna använda det till att slumpa fram vilka delar på ```About.jsx``` som skall renderas för övningen 'Info-rutan' 
+Kom gärna på fler sätt att öva använda conditional rendering på. Till exempel skulle du kunna använda det till att slumpa fram vilka delar på ```About.tsx``` som skall renderas för övningen 'Info-rutan' 
 
 ### Övning 4 - Array.map()
-Map-funktionen är väldigt vanlig i React. Skapa en array i din ````Menu.jsx``` innehållandes dina menyalternativ. Använd därefter map-funktionen för att iterera igenom att menyalternativ, och skapa dina MenuItems med hjälp av funktionen. 
+Map-funktionen är väldigt vanlig i React. Skapa en array i din ````Menu.tsx``` innehållandes dina menyalternativ. Använd därefter map-funktionen för att iterera igenom att menyalternativ, och skapa dina MenuItems med hjälp av funktionen. 
 
 Försök även hitta andra delar av det du gjort hittills där du skulle kunna använda dig av map().
 
