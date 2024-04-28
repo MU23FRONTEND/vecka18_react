@@ -3,6 +3,8 @@
 ## Meddelande
 Hallå där studenter! Nu har vi bråkat oss igenom alla grunder som vi kommer att titta på inom frontendutvecklingen, och det äntligen blivit dags att försöka pussla ihop allting vi lärt oss och stoppa in det i frontendramverket React. Denna inledande vecka kommer vi att försöka sätta grunderna, lära oss hur vi skapar våra projekt, titta på mapp-/filstrukturen, kolla på hur syntaxen ser ut med TSX i våra React-appar. Vi kommer även att dyka ner i konceptet kring komponenter, somär själva grundbulten i React, och vi kommer även att lära oss hur v gör för att dela med oss av, samt ta emot, data till och från våra olika komponenter med hjälp av props.
 
+Notera att filmerna med Christoffer visar React med JavaScript och inte TypeScript. Låt detta dock inte avskräcka er, utan jag skulle säga att ni behöver kolla på alla filmer som ligger uppe. Det mesta är väldigt likt, och än så länge är den största skillnaden hur vi hanterar props vilket jag tar upp i videon *React basics*. Annars är Christoffers filmer bttre, med mer och bättre försklaringar kring de olika koncepten.
+
 ## Presentationer
 - [Intro React](https://docs.google.com/presentation/d/1PC_GH_2dIDPNC0ZCWPNX3yusRDqkFiOz/edit?usp=sharing&ouid=117251319654116712560&rtpof=true&sd=true)
 - [Props](https://docs.google.com/presentation/d/1PC_GH_2dIDPNC0ZCWPNX3yusRDqkFiOz/edit?usp=sharing&ouid=117251319654116712560&rtpof=true&sd=true)
