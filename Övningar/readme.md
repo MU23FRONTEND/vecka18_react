@@ -1,5 +1,8 @@
 # Övningar
 
+## React Bootcamp
+[I detta dokument](https://docs.google.com/document/d/15Ez_E2d3mh7NuDa60A3Lj-4rZZc52eN7I05PhYwtvk8/edit?usp=sharing) finner ni uppgifter som ökar i svårighetsgrad. Ni gör de övningar ni känner för.
+
 ## Komponenter
 
 ### Övning 1 - Komponentstruktur
@@ -17,6 +20,7 @@ Stoppa in riktig data i dina komponenter. Fyll exempelvis listobjekt med riktiga
 
 ### Övning 2 - Info-rutan
 Följ instruktionerna [på länken](https://gist.github.com/Santosnr6/c31dd18e991b670e35977e9f9ca7c15c).
+Notera att övningen egentligen är skriven för React/JavaScript, men den enda skillnaden i instruktionerna för er är att ni namnger filerna till .tsx istället.
 
 ## JSX
 Återvänd till övningen 'Komponentstruktur' och försök implementera följande saker
@@ -41,6 +45,23 @@ Dokumentationen för Array.map() [hittar du här](https://developer.mozilla.org/
 3. Analysera även vilka sub-komponenter dina huvud-komponenter består utav.
 4. Skapa dina komponenter och fyll dem med hårdkodad data, dvs. bilder, rubriker, artiklar, länkar osv.
 5. Pussla ihop din kopia och styla den så likt orginalet som möjligt.
+
+## Bookstore
+
+I denna övning ska du göra en React-applikationen enligt designen som du kan se på bilden nedanför. Denna sida kommer i denna övning vara statisk d.v.s. du kan hårdkoda all information och knapparna etc behöver inte göra något. Vi kommer återvända till denna övning och fixa det framöver.
+
+Följande komponenter bör finnas med:
+
+- App
+- Header
+- Cart (som ligger i Header)
+- Products
+- Book
+
+Använd er av ```books.json``` som ligger i mappen *assets* för data till era objekt. Välj själva vilka delar av objekten ni vill rendera ut. Skissen behöver naturligtvis inte följas, den är bara ett förslag.
+
+### Skiss
+![Screenshot](./assets/bookstore.png)
 
 #### Tips!
 Skapa en komponent i taget!
