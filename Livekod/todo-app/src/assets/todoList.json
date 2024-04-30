@@ -1,0 +1,22 @@
+[
+    {
+        "task" : "Rasta katten",
+        "done" : false
+    },
+    {
+        "task" : "Mata grisen",
+        "done" : false
+    },
+    {
+        "task" : "Tvätta tuppen",
+        "done" : false
+    },
+    {
+        "task" : "Lek med barnen",
+        "done" : false
+    },
+    {
+        "task" : "Rensa avloppet",
+        "done" : false
+    }
+]
