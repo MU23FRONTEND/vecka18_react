@@ -11,10 +11,11 @@ type Book = {
 }
 
 type Props = {
-  addToCart : () => void
+  addToCart : () => void,
+  removeFromCart : () => void
 }
 
-function BookList({ addToCart } : Props) {
+function BookList({ addToCart, removeFromCart } : Props) {
   const bookList : Book[] = [...bookJson];
 
 
@@ -23,7 +24,7 @@ function BookList({ addToCart } : Props) {
       <div className="booklist content-wrapper">
         {
           bookList.map((book, index) => {
-            return <BookItem key={ index } addToCart={ addToCart } book={ book } />
+            return <BookItem key={ index } addToCart={ addToCart } removeFromCart={ removeFromCart } book={ book } />
           })
         }
       </div>

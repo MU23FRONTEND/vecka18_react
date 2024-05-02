@@ -1,7 +1,7 @@
 import './cart.css';
 
 type Props = {
-  cartItems : number
+  cartItems: number;
 }
 
 function Cart({ cartItems } : Props) {
