@@ -23,7 +23,8 @@ Notera att filmerna med Christoffer visar React med JavaScript och inte TypeScri
 - [Loopar och villkorlig rendering - med Christoffer](https://vimeo.com/653010728/0f531236bf?share=copy)
 
 ### Liveinspelningar
-Inga inspelningar publicerade ännu...
+- [Tisdag förmiddag](https://vimeo.com/939064768/cb47bdd4c1?share=copy)
+- [Tisdag eftermiddag](https://vimeo.com/941957059/20e1ea5095?share=copy)
 
 ### YouTube
 - [React/TypeScript - complete tutorial](https://www.youtube.com/watch?v=TPACABQTHvM)
