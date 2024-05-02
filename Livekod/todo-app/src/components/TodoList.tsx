@@ -1,26 +1,18 @@
 import TodoItem from "./TodoItem";
-import todos from '../assets/todoList.json';
 import { MouseEvent } from 'react';
+
+type Props = {
+    todoList : Todo[],
+    handleClick : (event : MouseEvent) => void
+}
 
 type Todo = {
     task : string,
     done : boolean
-}
+  }
 
-function TodoList() {
-    const todoList : Todo[] = [...todos];
-    console.log(todoList);
+function TodoList({ todoList, handleClick } : Props) {
 
-    const handleClick = (event : MouseEvent) : void => {
-        const index : number = todoList.findIndex(todo => todo.task === (event.target as HTMLElement).textContent);
-        todoList[index].done = !todoList[index].done;
-        console.log(todoList);
-    }
-
-    //Detta funkar lika bra!
-    // function handleClick() {
-        
-    // }
 
   return (
     <ul className="todo-list">
@@ -43,8 +35,9 @@ function TodoList() {
         <TodoItem task="Rasta katten" />    
         <TodoItem task="Hämtar barnen" />    
         <TodoItem task="Städar poolen" />    
-        <TodoItem task="Städa garaget" />     */}
+        <TodoItem task="Städa garaget" /> */}
     </ul>
+    
   )
 }
 
