@@ -25,6 +25,8 @@ Notera att filmerna med Christoffer visar React med JavaScript och inte TypeScri
 ### Liveinspelningar
 - [Tisdag förmiddag](https://vimeo.com/939064768/cb47bdd4c1?share=copy)
 - [Tisdag eftermiddag](https://vimeo.com/941957059/20e1ea5095?share=copy)
+- [Torsdag förmiddag](https://vimeo.com/941965445/b7b9e30c09?share=copy)
+- [Torsdag eftermiddag](https://vimeo.com/941965684/49022e3c0c?share=copy)
 
 ### YouTube
 - [React/TypeScript - complete tutorial](https://www.youtube.com/watch?v=TPACABQTHvM)
